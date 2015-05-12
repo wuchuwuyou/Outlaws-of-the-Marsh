@@ -13,6 +13,7 @@
 		2A51F1BF1B00F2C10049C26B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A51F1BE1B00F2C10049C26B /* Images.xcassets */; };
 		2A51F1C21B00F2C10049C26B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A51F1C01B00F2C10049C26B /* LaunchScreen.xib */; };
 		2A51F1CE1B00F2C10049C26B /* OutlawsOfTheMarshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A51F1CD1B00F2C10049C26B /* OutlawsOfTheMarshTests.swift */; };
+		2A51F1E01B01B1B00049C26B /* HerosData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A51F1DF1B01B1B00049C26B /* HerosData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2A51F1C71B00F2C10049C26B /* OutlawsOfTheMarshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutlawsOfTheMarshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A51F1CC1B00F2C10049C26B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A51F1CD1B00F2C10049C26B /* OutlawsOfTheMarshTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlawsOfTheMarshTests.swift; sourceTree = "<group>"; };
+		2A51F1DF1B01B1B00049C26B /* HerosData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HerosData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		2A51F1B51B00F2C10049C26B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2A51F1DF1B01B1B00049C26B /* HerosData.json */,
 				2A51F1B61B00F2C10049C26B /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A51F1BD1B00F2C10049C26B /* Main.storyboard in Resources */,
+				2A51F1E01B01B1B00049C26B /* HerosData.json in Resources */,
 				2A51F1C21B00F2C10049C26B /* LaunchScreen.xib in Resources */,
 				2A51F1BF1B00F2C10049C26B /* Images.xcassets in Resources */,
 			);
@@ -411,6 +415,7 @@
 				2A51F1D31B00F2C10049C26B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A51F1D41B00F2C10049C26B /* Build configuration list for PBXNativeTarget "OutlawsOfTheMarshTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				2A51F1D61B00F2C10049C26B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
