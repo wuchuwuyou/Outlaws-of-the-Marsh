@@ -64,6 +64,17 @@ class MWHerosTableViewController: UITableViewController {
         return 200
     }
 
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+//        var detailVC = MWHerosDetailViewController()
+        var storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
+        var detailVC: MWHerosDetailViewController! = storyboard.instantiateViewControllerWithIdentifier("herosDetailViewController") as! MWHerosDetailViewController
+        detailVC.data = self.dataArray.objectAtIndex(indexPath.row) as? MWHerosData
+        
+        self.navigationController?.pushViewController(detailVC, animated: true)
+    }
+    
     /*
     // Override to support conditional editing of the table view.
     override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {

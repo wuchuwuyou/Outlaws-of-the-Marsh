@@ -17,6 +17,7 @@
 		2A51F1E21B0342E90049C26B /* MWHerosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A51F1E11B0342E90049C26B /* MWHerosTableViewController.swift */; };
 		2A51F1E41B0343570049C26B /* MWHerosData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A51F1E31B0343570049C26B /* MWHerosData.swift */; };
 		2A51F1E61B03436F0049C26B /* MWHerosManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A51F1E51B03436F0049C26B /* MWHerosManager.swift */; };
+		2A8871EE1B0996B600336635 /* MWHerosDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8871ED1B0996B600336635 /* MWHerosDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		2A51F1E11B0342E90049C26B /* MWHerosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWHerosTableViewController.swift; sourceTree = "<group>"; };
 		2A51F1E31B0343570049C26B /* MWHerosData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWHerosData.swift; sourceTree = "<group>"; };
 		2A51F1E51B03436F0049C26B /* MWHerosManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWHerosManager.swift; sourceTree = "<group>"; };
+		2A8871ED1B0996B600336635 /* MWHerosDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWHerosDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				2A51F1B71B00F2C10049C26B /* AppDelegate.swift */,
 				2A51F1B91B00F2C10049C26B /* ViewController.swift */,
 				2A51F1E11B0342E90049C26B /* MWHerosTableViewController.swift */,
+				2A8871ED1B0996B600336635 /* MWHerosDetailViewController.swift */,
 				2A51F1E31B0343570049C26B /* MWHerosData.swift */,
 				2A51F1E51B03436F0049C26B /* MWHerosManager.swift */,
 				2A51F1BB1B00F2C10049C26B /* Main.storyboard */,
@@ -228,6 +231,7 @@
 				2A51F1BA1B00F2C10049C26B /* ViewController.swift in Sources */,
 				2A51F1E61B03436F0049C26B /* MWHerosManager.swift in Sources */,
 				2A51F1B81B00F2C10049C26B /* AppDelegate.swift in Sources */,
+				2A8871EE1B0996B600336635 /* MWHerosDetailViewController.swift in Sources */,
 				2A51F1E21B0342E90049C26B /* MWHerosTableViewController.swift in Sources */,
 				2A51F1E41B0343570049C26B /* MWHerosData.swift in Sources */,
 			);

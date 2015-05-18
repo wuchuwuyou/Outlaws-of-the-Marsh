@@ -52,4 +52,8 @@ class MWHerosData: NSObject {
         picName = "heros_".stringByAppendingString(dict.objectForKey("order") as! String )
         return  self
     }
+//    override func description() -> String {
+//        var str = ""
+//        return str
+//    }
 }
